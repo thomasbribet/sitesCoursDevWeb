@@ -1,0 +1,26 @@
+/* PARC  */
+#parc {
+    padding-top: 20vh;
+}
+#parc img {
+    width: 40vh;
+    padding: 5vh;
+}
+
+.parc-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 5vh; */
+}
+
+.parc-item p {
+    text-align: justify;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1320px) {
+    #parc img {
+        width: 25vh;
+    }
+}

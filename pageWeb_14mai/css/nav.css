@@ -1,0 +1,35 @@
+/* NAVIGATION  */
+header {
+    /* display: flex;
+    justify-content: space-around; */
+    font-family: "Jurassic Park", sans-serif;
+    background-color: black;
+    padding: 1vh 0;
+    position: fixed;
+    z-index: 2;
+    height: 10vh;
+}
+
+#logo {
+    height: 14vh;
+}
+
+nav ul {
+    /* display: flex; */
+    list-style: none;
+}
+
+nav ul li {
+    /* padding: 1vh 2vh 0 0; */
+    font-size: 3em;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menuLogo {
+    filter: invert(1);
+}

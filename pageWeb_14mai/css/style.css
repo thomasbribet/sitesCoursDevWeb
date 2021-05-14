@@ -1,0 +1,25 @@
+@import "./carousel.css";
+@import "./nav.css";
+@import "./parc.css";
+@import "./portfolio.css";
+@import "./team.css";
+@import "./map_contact.css";
+
+@font-face {
+    font-family: "Jurassic Park";
+    src: url("/font/JurassicPark.ttf") format("truetype");
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-family: "Jurassic Park", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,40 @@
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30vh 0 10vh 0;
+}
+
+#mapid {
+    height: 40vh;
+    width: 60vh;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contact form div {
+    padding: 1vh 0;
+}
+
+#contact button {
+    margin: 1vh 0;
+    font-size: 1.4em;
+    border-color: black;
+    color: #FF2700;
+}
+
+#contact button:hover {
+    background-color: #FF2700;
+    color:black;
+}
+
+@media screen and (max-width: 1024px) {
+    #mapid {
+        height: 25vh;
+        width: 45vh;
+    }
+}
